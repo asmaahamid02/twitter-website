@@ -1,3 +1,4 @@
+// DECLARING CONSTANTS
 const signup_btn = document.getElementById('signup-btn');
 const form_body = document.getElementById('form-body');
 const close_form = document.getElementById('close-form');
@@ -13,6 +14,7 @@ const form_page_2 = document.getElementById('form-page-2');
 const form_page_3 = document.getElementById('form-page-3');
 const form_page_4 = document.getElementById('form-page-4');
 
+// ADDING FUNCTIONALITY TO THE FORM BUTTONS
 signup_btn.addEventListener('click', ()=>{
     alert("bvj")
     form_page_1.style.display = 'flex';
