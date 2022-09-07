@@ -13,6 +13,8 @@ const form_page_1 = document.getElementById('form-page-1');
 const form_page_2 = document.getElementById('form-page-2');
 const form_page_3 = document.getElementById('form-page-3');
 const form_page_4 = document.getElementById('form-page-4');
+const signin_btn = document.getElementById('signin-btn');
+const signin_form = document.getElementById('signin-form');
 
 // ADDING FUNCTIONALITY TO THE FORM BUTTONS
 signup_btn.addEventListener('click', ()=>{
@@ -59,3 +61,10 @@ next_btn_3.addEventListener('click', ()=>{
     form_page_4.style.display = 'flex';
     document.body.append(form_page_4)
 });
+
+signin_btn.addEventListener('click', ()=>{
+            
+            signin_form.style.display = 'flex';
+            document.body.append(form_page_1);
+
+        })
