@@ -13,48 +13,47 @@ const form_page_2 = document.getElementById('form-page-2');
 const form_page_3 = document.getElementById('form-page-3');
 const form_page_4 = document.getElementById('form-page-4');
 
-alert(signup_btn)
-// signup_btn.addEventListener('click', ()=>{
-//     alert("bvj")
-//     form_page_1.style.display = 'flex';
-//     document.body.append(form_page_1)
-// });
+signup_btn.addEventListener('click', ()=>{
+    alert("bvj")
+    form_page_1.style.display = 'flex';
+    document.body.append(form_page_1)
+});
 
-// close_form.addEventListener('click', ()=>{
-//     form_page_1.remove();
-// });
+close_form.addEventListener('click', ()=>{
+    form_page_1.remove();
+});
 
-// close_authentication_form.addEventListener('click', ()=>{
-//     form_page_4.style.display = 'none';
-// });
+close_authentication_form.addEventListener('click', ()=>{
+    form_page_4.style.display = 'none';
+});
 
-// back_form_1.addEventListener('click', ()=>{
-//     form_page_2.remove();
-//     form_page_1.style.display = 'flex';
-//     document.body.append(form_page_1);
-// })
+back_form_1.addEventListener('click', ()=>{
+    form_page_2.remove();
+    form_page_1.style.display = 'flex';
+    document.body.append(form_page_1);
+})
 
-// back_form_2.addEventListener('click', ()=>{
-//     form_page_3.remove();
-//     form_page_2.style.display = 'flex';
-//     document.body.append(form_page_2);
-// })
+back_form_2.addEventListener('click', ()=>{
+    form_page_3.remove();
+    form_page_2.style.display = 'flex';
+    document.body.append(form_page_2);
+})
 
 
-// next_btn_1.addEventListener('click', ()=>{
-//     form_page_1.remove();
-//     form_page_2.style.display = 'flex';
-//     document.body.append(form_page_2)
-// });
+next_btn_1.addEventListener('click', ()=>{
+    form_page_1.remove();
+    form_page_2.style.display = 'flex';
+    document.body.append(form_page_2)
+});
 
-// next_btn_2.addEventListener('click', ()=>{
-//     form_page_2.remove();
-//     form_page_3.style.display = 'flex';
-//     document.body.append(form_page_3)
-// });
+next_btn_2.addEventListener('click', ()=>{
+    form_page_2.remove();
+    form_page_3.style.display = 'flex';
+    document.body.append(form_page_3)
+});
 
-// next_btn_3.addEventListener('click', ()=>{
-//     form_page_3.remove();
-//     form_page_4.style.display = 'flex';
-//     document.body.append(form_page_4)
-// });
+next_btn_3.addEventListener('click', ()=>{
+    form_page_3.remove();
+    form_page_4.style.display = 'flex';
+    document.body.append(form_page_4)
+});
