@@ -215,11 +215,27 @@ footer a:hover {
     width: 80%;
     height: 50%;
     margin: 10% 5%;
-
 }
 
 #signin-next-btn {
     background: black;
+}
+
+#signin-next-btn:hover {
+    background: rgb(24, 24, 24);
+}
+
+.signin-form h5 {
+    margin: 20px 5px;
+}
+
+.signin-form h5 a{
+    text-decoration: none;
+    color: var(--twitter-blue);
+}
+
+.signin-form h5 a:hover {
+    text-decoration: underline;
 }
 
 #form-page-1,
@@ -326,7 +342,7 @@ footer a:hover {
 
 .next-btn {
     border: none;
-    background: rgb(136, 136, 136);
+    background: rgb(140, 140, 140);
     color: white;
     font-weight: bolder;
     font-size: 20px;
@@ -334,6 +350,10 @@ footer a:hover {
     padding: 15px 0;
     border-radius: 25px;
     margin-top: 20px;
+}
+
+.next-btn:hover {
+    background: rgb(110, 110, 110);
 }
 
 .terms-and-checkbox {
@@ -354,16 +374,4 @@ footer a:hover {
         border-radius: 0;
         position: fixed;
     }
-}
-
-.shield-icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 80px;
-    margin: 40px 0;
-}
-
-.authentication-text {
-    margin: 20px 0 40 0;
 }
