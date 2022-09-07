@@ -1,64 +1,67 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Twitter. It's what's happening now.</title>
-        <link rel="stylesheet" href="/application/assets/css/styles.css">
-        <link rel="stylesheet" href="/application/assets/css/signup.css">
-        <link rel="icon" type="image/x-icon" href="/application/images/twitter-logo.png">
+    <title>Twitter. It's what's happening now.</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/signup.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/twitter-logo.png">
 </head>
+
 <body>
     <!-- MAIN SECTION/ BODY-->
     <section class="login">
-    
-        <img class="hero-img" src="/application/images/login-img.jpg" alt="">
-    
+
+        <img class="hero-img" src="../assets/images/login-img.jpg" alt="">
+
         <div class="login-info">
-    
-            <img class="login-info-img" src="/application/images/twitter-logo.png" alt="">
-    
+
+            <img class="login-info-img" src="../assets/images/twitter-logo.png" alt="">
+
             <h1>Happening now</h1>
-    
+
             <div class="width-combiner">
-    
+
                 <h2>join twitter today.</h2>
-    
+
                 <button class="nofill-btn signup-btn">
-                    <img src="/application/images/google-logo.png" alt="">
+                    <img src="../assets/images/google-logo.png" alt="">
                     Sign up with Google
                 </button>
-    
+
                 <button class="nofill-btn signup-btn">
-                    <img src="/application/images/apple-logo.png" alt="">
+                    <img src="../assets/images/apple-logo.png" alt="">
                     Sign up with Apple
                 </button>
-    
+
                 <div class="login-or">
                     <hr>
                     <h4>or</h4>
                     <hr>
                 </div>
-    
-                <button class="blue-btn signup-btn">Sign up with phone or email</button>
-    
-                <p class="rules">By signing up, you agree to the <a href=""> Terms of Service</a> and <a href=""> Privacy
+
+                <button class="blue-btn signup-btn" id="signup-btn">Sign up with phone or email</button>
+
+                <p class="rules">By signing up, you agree to the <a href=""> Terms of Service</a> and <a href="">
+                        Privacy
                         Policy</a>, including <a href=""> Cookie Use</a>.</p>
-    
+
                 <h3>Already have an account?</h3>
-    
+
                 <button class="nofill-btn signup-btn">Sign in</button>
-    
+
             </div>
-    
+
         </div>
-    
+
     </section>
 
 <!-- FOOTER -->
 
     <footer>
-        
+
         <a href="#">About</a>
         <a href="#">Help Center</a>
         <a href="#">Terms of Service</a>
@@ -77,38 +80,38 @@
         <a href="#">Directory</a>
         <a href="#">Settings</a>
         <a href="#">© 2022 Twitter, Inc.</a>
-        
+
     </footer>
 
     <!-- SIGN-UP FORM NONE-DISPLAYED-->
 
     <!-- PAGE 1 -->
     <form class="login-form" id="form-page-1" action="">
-    
+
         <div class="form-header">
-            <img id="close-form" src="/application/images/x-lg.svg" alt="">
-    
+            <img id="close-form" src="../assets/images/x-lg.svg" alt="">
+
             <h3>Step <span id="current-form-page">1</span> out of 5</h3>
-    
+
         </div>
-    
+
         <div class="form-body">
-    
-    
+
+
             <h1>Create your account</h1>
-    
+
             <input type="text" name="name" placeholder="Name" class="form-input">
-    
+
             <input type="text" name="phone-or-email" placeholder="Phone" class="form-input">
-    
+
             <button class="email-phone-switch-btn">Use email instead</button>
-    
+
             <h4>Date of birth</h4>
             <p>This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or
                 something else.</p>
-    
+
             <div class="date-select">
-    
+
                 <select id="month" name="month" class="month">
                     <option>month</option>
                     <option value="01">January</option>
@@ -124,7 +127,7 @@
                     <option value="11">November</option>
                     <option value="12">December</option>
                 </select>
-    
+
                 <select id="day" name="day" class="day">
                     <option>day</option>
                     <option value="01">01</option>
@@ -159,7 +162,7 @@
                     <option value="30">30</option>
                     <option value="31">31</option>
                 </select>
-    
+
                 <select name="year" id="year" class="year">
                     <option>year</option>
                     <option value="1940">1940</option>
@@ -246,110 +249,111 @@
                     <option value="2021">2021</option>
                     <option value="2022">2022</option>
                 </select>
-    
+
             </div>
-    
+
             <button id="next-btn-1" class="next-btn">Next</button>
-    
+
         </div>
-    
+
     </form>
 
     <!-- PAGE 2 -->
 
     <form class="login-form" id="form-page-2" action="">
-    
+
         <div class="form-header">
-            <img id="back-form-1" src="/application/images/arrow-back-fill.svg" alt="">
-    
+            <img id="back-form-1" src="../assets/images/arrow-back-fill.svg" alt="">
+
             <h3>Step <span id="current-form-page">2</span> out of 5</h3>
-    
+
         </div>
-    
+
         <div class="form-body">
-    
+
             <h1>Customize your experience</h1>
-    
+
             <h2>Track where you see Twitter content across the web</h2>
-    
+
             <div class="terms-and-checkbox">
-    
+
                 <p>Twitter uses this data to personalize your experience. This web browsing history will never be stored
                     with your name,
                     email, or phone number.</p>
-    
+
                 <input type="checkbox" name="data-form" id="data-form" checked>
-    
+
             </div>
-    
-            <p>By signing up, you agree to our <a href="">Terms</a> , <a href=""> Privacy Policy</a>, and <a href=""> Cookie
+
+            <p>By signing up, you agree to our <a href="">Terms</a> , <a href=""> Privacy Policy</a>, and <a href="">
+                    Cookie
                     Use</a>. Twitter may use your contact information,
-                including your email address and phone number for purposes outlined in our Privacy Policy. <a href=""> Learn
+                including your email address and phone number for purposes outlined in our Privacy Policy. <a href="">
+                    Learn
                     more</a></p>
-    
+
             <button id="next-btn-2" class="next-btn">Next</button>
-    
+
         </div>
     </form>
 
     <!-- PAGE 3 -->
 
     <form class="login-form" id="form-page-3" action="">
-    
+
         <div class="form-header">
-            <img id="back-form-2" src="/application/images/arrow-back-fill.svg" alt="">
-    
+            <img id="back-form-2" src="../assets/images/arrow-back-fill.svg" alt="">
+
             <h3>Step <span id="current-form-page">3</span> out of 5</h3>
-    
+
         </div>
-    
+
         <div class="form-body">
-    
+
             <h1>Create your account</h1>
-    
+
             <input type="text" name="name" placeholder="" class="form-input" id="name-input-2">
-    
+
             <input type="text" name="phone-or-email" placeholder="" class="form-input" id="email-input-2">
-    
+
             <input type="date" name="phone-or-email" placeholder="" class="form-input" id="date-input-2">
-    
-            <p>By signing up, you agree to our <a href="">Terms</a> , <a href=""> Privacy Policy</a>, and <a href=""> Cookie
+
+            <p>By signing up, you agree to our <a href="">Terms</a> , <a href=""> Privacy Policy</a>, and <a href="">
+                    Cookie
                     Use</a>. Twitter may use your contact information,
-                including your email address and phone number for purposes outlined in our Privacy Policy. <a href=""> Learn
+                including your email address and phone number for purposes outlined in our Privacy Policy. <a href="">
+                    Learn
                     more</a> Others will be able to find you by email or phone number, when provided, unless you choose
                 otherwise <a href=""> here</a>.</p>
-    
+
             <button id="next-btn-3" class="next-btn">Next</button>
-    
+
         </div>
     </form>
     
     <!-- PAGE 4 -->
 
     <form class="login-form" id="form-page-4" action="">
-    
+
         <div class="form-header">
-            <img id="close-authentication-form" src="/application/images/x-lg.svg" alt="">
+            <img id="close-authentication-form" src="../assets/images/x-lg.svg" alt="">
         </div>
-    
+
         <div class="form-body">
-    
-            <img class="shield-icon" src="/application/images/shield-halved.svg" alt="">
-    
+
+            <img class="shield-icon" src="../assets/images/shield-halved.svg" alt="">
+
             <h1>Authenticate your account</h1>
             <h3 class="authentication-text">We need to make sure that you’re a real person.</h3>
-    
+
             <button id="next-btn-3" class="next-btn">Authenticate</button>
-    
+
         </div>
-    
+
         </div>
-    
+
     </form>
-
-    <!-- END OF SIGN UP FORM -->
-
-    <script src="/application/assets/js/signup.js"></script>
-    
+    <script src="../assets/js/signup.js"></script>
 </body>
+
 </html>
