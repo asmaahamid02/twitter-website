@@ -189,12 +189,19 @@ footer a:hover {
 
 /* FORM */
 
-.login-form {
+.login-form{
+    width: 600px;
+}
+.signin-form{
+    width: 400px;
+}
+
+.login-form,
+.signin-form {
     display: none;
     flex-flow: wrap column;
     justify-content: flex-start;
     align-items: center;
-    width: 600px;
     height: 550px;
     background: rgb(231, 231, 231);
     border-radius: 15px;
@@ -202,6 +209,17 @@ footer a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.signin-width-combiner {
+    width: 80%;
+    height: 50%;
+    margin: 10% 5%;
+
+}
+
+#signin-next-btn {
+    background: black;
 }
 
 #form-page-1,
