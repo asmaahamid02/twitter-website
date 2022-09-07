@@ -36,3 +36,28 @@ html {
   scroll-behavior: smooth;
   font-family: reqular-font;
 }
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  height: 100%;
+}
+
+/* SideBar */
+.sidebar {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 10%;
+}
+
+/* Main Content */
+.main {
+  overflow-y: auto;
+}
