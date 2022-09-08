@@ -1,0 +1,76 @@
+/* Fonts */
+@font-face {
+  font-family: reqular-font;
+  src: url('../fonts/chirp-regular-web.woff');
+}
+
+@font-face {
+  font-family: medium-font;
+  src: url('../fonts/chirp-medium-web.woff');
+}
+
+@font-face {
+  font-family: bold-font;
+  src: url('../fonts/chirp-bold-web.woff');
+}
+
+@font-face {
+  font-family: heavy-font;
+  src: url('../fonts/chirp-heavy-web.woff');
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILITIES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --twitter-blue: #1da1f2;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: reqular-font;
+}
+
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  height: 100%;
+}
+
+/* SideBar */
+.sidebar {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 10%;
+}
+
+/* Main Content */
+.main {
+  overflow-y: auto;
+}
+
+/* Media Query */
+@media only screen and (max-width: 500px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
