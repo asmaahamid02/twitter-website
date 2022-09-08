@@ -23,35 +23,15 @@
             <h1>Happening now</h1>
 
             <div class="width-combiner">
-
-                <h2>join twitter today.</h2>
-
-                <button class="nofill-btn signup-btn">
-                    <img src="../assets/images/google-logo.png" alt="">
-                    Sign up with Google
-                </button>
-
-                <button class="nofill-btn signup-btn">
-                    <img src="../assets/images/apple-logo.png" alt="">
-                    Sign up with Apple
-                </button>
-
-                <div class="login-or">
-                    <hr>
-                    <h4>or</h4>
-                    <hr>
-                </div>
-
+                <h2>Join Twitter today.</h2>
+    
                 <button class="blue-btn signup-btn" id="signup-btn">Sign up with phone or email</button>
-
-                <p class="rules">By signing up, you agree to the <a href=""> Terms of Service</a> and <a href="">
-                        Privacy
-                        Policy</a>, including <a href=""> Cookie Use</a>.</p>
+    
+                <p class="rules">By signing up, you agree to the <a href=""> Terms of Service</a> and <a href=""> Privacy Policy</a>, including <a href=""> Cookie Use</a>.</p>
 
                 <h3>Already have an account?</h3>
-
-                <button class="nofill-btn signup-btn">Sign in</button>
-
+    
+                <button class="nofill-btn signup-btn" id="signin-btn">Sign in</button>
             </div>
 
         </div>
@@ -90,20 +70,16 @@
 
         <div class="form-header">
             <img id="close-form" src="../assets/images/x-lg.svg" alt="">
-
-            <h3>Step <span id="current-form-page">1</span> out of 5</h3>
-
+            <h3>Step <span id="current-form-page">1</span> out of 3</h3>
         </div>
 
         <div class="form-body">
-
-
             <h1>Create your account</h1>
 
             <input type="text" name="name" placeholder="Name" class="form-input">
-
-            <input type="text" name="phone-or-email" placeholder="Phone" class="form-input">
-
+    
+            <input type="text" name="phone-or-email" placeholder="Phone" class="form-input" id="email-phone">
+ 
             <button class="email-phone-switch-btn">Use email instead</button>
 
             <h4>Date of birth</h4>
@@ -264,9 +240,7 @@
 
         <div class="form-header">
             <img id="back-form-1" src="../assets/images/arrow-back-fill.svg" alt="">
-
-            <h3>Step <span id="current-form-page">2</span> out of 5</h3>
-
+            <h3>Step <span id="current-form-page">2</span> out of 3</h3>
         </div>
 
         <div class="form-body">
@@ -303,9 +277,7 @@
 
         <div class="form-header">
             <img id="back-form-2" src="../assets/images/arrow-back-fill.svg" alt="">
-
-            <h3>Step <span id="current-form-page">3</span> out of 5</h3>
-
+            <h3>Step <span id="current-form-page">3</span> out of 3</h3>
         </div>
 
         <div class="form-body">
@@ -325,34 +297,33 @@
                     Learn
                     more</a> Others will be able to find you by email or phone number, when provided, unless you choose
                 otherwise <a href=""> here</a>.</p>
-
-            <button id="next-btn-3" class="next-btn">Next</button>
-
-        </div>
-    </form>
     
-    <!-- PAGE 4 -->
-
-    <form class="login-form" id="form-page-4" action="">
-
-        <div class="form-header">
-            <img id="close-authentication-form" src="../assets/images/x-lg.svg" alt="">
+            <button id="next-btn-3" class="next-btn">Sign Up</button>
         </div>
-
-        <div class="form-body">
-
-            <img class="shield-icon" src="../assets/images/shield-halved.svg" alt="">
-
-            <h1>Authenticate your account</h1>
-            <h3 class="authentication-text">We need to make sure that you’re a real person.</h3>
-
-            <button id="next-btn-3" class="next-btn">Authenticate</button>
-
-        </div>
-
-        </div>
-
     </form>
+
+    <!-- END OF SIGN UP FORM -->
+
+    <!-- BEGINING OF SIGN IN FORM -->
+
+    <form class="signin-form" id="signin-form" action="">
+    
+        <div class="form-header">         
+            <img id="signin-close-form" src="../assets/images/x-lg.svg" alt="">
+        </div>
+    
+        <div class="signin-width-combiner">
+    
+            <h2>join twitter today.</h2>
+    
+            <input type="text" name="phone-or-email" placeholder="Phone, Email, Username" class="form-input">
+
+            <input type="text" name="passord" placeholder="Password" class="form-input">
+    
+            <button id="signin-next-btn" class="next-btn">Sign In</button>
+
+            <h5>Don't have an account? <a href="" id="inner-signup-btn">Sign up</a>.</h5>
+        </div>
     <script src="../assets/js/signup.js"></script>
 </body>
 
