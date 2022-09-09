@@ -1,3 +1,7 @@
+:root {
+    --twitter-blue: #1DA1F2;
+}
+
 body{
     background: rgba(0, 0, 0, 0.1);
     display: flex;
@@ -55,6 +59,34 @@ margin-bottom: 5px;
     margin: -20px 0 0 5%;
 }
 
+/* Profile's body */
+
+.profile-container h1{
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10%;
+    opacity: .3;
+
+}
+
+.add-tweet{
+    position: fixed;
+    top:80%;
+    left:80%;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    background: var(--twitter-blue);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.add-tweet:hover {
+    filter: brightness(.9);
+}
 
 /* Footer */
 
@@ -74,4 +106,8 @@ margin-bottom: 5px;
 
 .footer img{
     height: 60%;
+}
+
+.footer img:hover {
+    opacity: .8;
 }
